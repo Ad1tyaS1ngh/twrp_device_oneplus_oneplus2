@@ -1,7 +1,0 @@
-allow kernel sysfs_leds:dir search;
-allow kernel sysfs_leds:lnk_file read;
-allow kernel sysfs_graphics:dir search;
-allow kernel sysfs_graphics:file rw_file_perms;
-
-# WTF?
-dontaudit kernel self:capability dac_override;

@@ -1,1 +1,0 @@
-allow perfd proc_kernel_sched:file rw_file_perms;
